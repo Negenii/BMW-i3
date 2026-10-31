@@ -58,7 +58,7 @@
   ]},
 { "hdr": "6F1", "rax": "612", "eax": "12", "fcm1": true, "cmd": {"22": "DE9C"}, "freq": 1, "dbgfilter": { "to": 2016, "years": [2018], "from": 2020 },
   "signals": [
-    {"id": "I3_APP", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Accelerator pedal position"}
+    {"id": "I3_APP", "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 4095, "div": 16, "unit": "percent" }, "name": "Accelerator pedal position", "suggestedMetric": "throttlePosition"}
   ]},
 { "hdr": "6F1", "rax": "614", "eax": "14", "fcm1": true, "cmd": {"22": "DEF5"}, "freq": 5, "dbgfilter": { "to": 2016, "years": [2018], "from": 2020 },
   "signals": [
@@ -91,7 +91,7 @@
   "signals": [
     {"id": "I3_OBC_AC_V_1", "path": "Engine", "fmt": {           "len": 16, "max": 65535,            "unit": "volts" }, "name": "Charger AC voltage, phase 1"},
     {"id": "I3_OBC_HV_V",   "path": "Engine", "fmt": {"bix": 32, "len": 16, "max": 6553,  "div": 10, "unit": "volts" }, "name": "Charger HV DC voltage"},
-    {"id": "I3_OBC_KL30_V", "path": "Engine", "fmt": {"bix": 48, "len": 8,  "max": 25.5,  "div": 10, "unit": "volts" }, "name": "Charger 12V supply voltage"},
+    {"id": "I3_OBC_KL30_V", "path": "Engine", "fmt": {"bix": 48, "len": 8,  "max": 25.5,  "div": 10, "unit": "volts" }, "name": "Charger 12V supply voltage", "suggestedMetric": "starterBatteryVoltage"},
     {"id": "I3_OBC_AC_V_2", "path": "Engine", "fmt": {"bix": 64, "len": 16, "max": 65535,            "unit": "volts" }, "name": "Charger AC voltage, phase 2"},
     {"id": "I3_OBC_AC_V_3", "path": "Engine", "fmt": {"bix": 80, "len": 16, "max": 65535,            "unit": "volts" }, "name": "Charger AC voltage, phase 3"}
   ]},
