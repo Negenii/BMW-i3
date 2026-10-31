@@ -228,7 +228,7 @@
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D11F"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
-    {"id": "I3_FUEL_LEVEL", "path": "Trips", "fmt": { "len": 16, "max": 100, "div": 16, "nullmax": 4095, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel", "description": "Requires range extender. Tank fill (KOMBI TANKINHALT, 22 D11F)."}
+    {"id": "I3_FUEL_LEVEL", "path": "Trips", "fmt": { "len": 16, "max": 100, "div": 10, "nullmax": 6553, "unit": "percent" }, "name": "Fuel level", "suggestedMetric": "fuelTankLevel", "description": "Requires range extender. Tank fill (KOMBI TANKINHALT, 22 D11F)."}
   ]},
 { "hdr": "6F1", "rax": "660", "eax": "60", "fcm1": true, "cmd": {"22": "D112"}, "freq": 5, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
