@@ -5,11 +5,11 @@
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DD68"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
-    {"id": "I3_HVBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "HV battery voltage"}
+    {"id": "I3_HVBAT_V", "path": "Battery", "fmt": { "len": 16, "max": 655.35, "div": 100, "unit": "volts" }, "name": "HV battery voltage", "suggestedMetric": "tractionBatteryVoltage"}
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DD69"}, "freq": 30, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
-    {"id": "I3_HVBAT_C", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current"}
+    {"id": "I3_HVBAT_C", "path": "Battery", "fmt": { "len": 32, "max": 10000, "min": -10000, "div": 100, "sign": true, "unit": "amps" }, "name": "HV battery current", "suggestedMetric": "tractionBatteryCurrent"}
   ]},
 { "hdr": "6F1", "rax": "607", "eax": "07", "fcm1": true, "cmd": {"22": "DDBC"}, "freq": 1, "dbgfilter": { "to": 2014, "from": 2022 },
   "signals": [
